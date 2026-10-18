@@ -1,0 +1,12 @@
+visibility = 1
+[plugin]
+config_version = "1.0.0"
+enabled = true
+[autonomous]
+# 启用后会按下列概率自动向QQ空间发布说说；不需要时改为false。
+enabled = true
+probability = 0.2
+start_hour = 9
+end_hour = 23
+cooldown_hours = 4
+daily_limit = 2

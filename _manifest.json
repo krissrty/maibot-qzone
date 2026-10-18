@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "id": "krissrty.qzone",
+  "version": "1.0.0",
+  "name": "麦麦说说：手动与概率自主发布",
+  "description": "QQ空间纯文字说说，按人设构思，上海时间概率调度，持久化限额。",
+  "author": {
+    "name": "krissrty",
+    "url": "https://github.com/krissrty"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "1.2.5",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.6.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "api.call",
+    "llm.generate",
+    "config.get"
+  ],
+  "plugin_type": "tool",
+  "display": {
+    "icon": {
+      "type": "emoji",
+      "value": "📨"
+    }
+  },
+  "urls": {
+    "repository": "https://github.com/krissrty/maibot-qzone",
+    "homepage": "https://github.com/krissrty/maibot-qzone",
+    "documentation": "https://github.com/krissrty/maibot-qzone#readme",
+    "issues": "https://github.com/krissrty/maibot-qzone/issues"
+  },
+  "i18n": {
+    "default_locale": "zh-CN"
+  }
+}
